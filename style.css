@@ -1,0 +1,61 @@
+.msg {
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+}
+
+img{
+  height:190px;
+}
+
+.main{
+  float:left;
+  margin-right:10px;
+}
+
+.button{
+  background: #ff4f00;
+  color: white;
+  font-weight: bold;
+  height:30px;
+}
+
+.instrument{
+  height:245px;
+  width:245px;
+  border-radius:10px;
+  border:2px solid black;
+  box-shadow:2px 2px 2px black;
+  margin-top:10px;
+  margin-left:8px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.red:hover{
+ background-color: red;
+   color: white; 
+}
+
+.blue:hover{
+ background-color: blue;
+   color: white;
+}
+
+.green:hover{
+ background-color: green;
+   color: white;
+}
+
+.hide{
+  display:none;
+}
+
+#content {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
